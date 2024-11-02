@@ -94,7 +94,7 @@
         android:layout_marginTop="30dp"
         android:gravity="center"
         android:textColor="@color/black"
-        android:text="Bienvenido!"
+        android:text="Bem-Vindo!"
         android:textStyle="bold"
         android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
