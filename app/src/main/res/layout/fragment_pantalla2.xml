@@ -4,40 +4,40 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
     android:background="#F1E3B6"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/Titulo"
+        android:id="@+id/títuloSegundaTela"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
         android:textStyle="italic"
-        android:text="METAS PARA A MINHA SEMANA :"/>
+        android:text="@string/metas_para_a_minha_semana"/>
 
     <EditText
-        android:id="@+id/entradaDeTarea"
+        android:id="@+id/entradaDeTarefa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:hint="Nova Tarefa" />
+        android:hint="@string/nova_tarefa" />
 
     <Button
         android:id="@+id/addButton"
-        android:drawableEnd="@drawable/add_grupo6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/black"
-        android:textSize="20dp"
         android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="#F2B907"
-        android:text="Adicionar Tarefa" />
+        android:drawableEnd="@drawable/add_grupo6"
+        android:text="@string/adicionar_tarefa"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -45,4 +45,6 @@
         android:layout_height="0dp"
         android:layout_marginTop="30dp"
         android:layout_weight="1" />
+
+
 </LinearLayout>
