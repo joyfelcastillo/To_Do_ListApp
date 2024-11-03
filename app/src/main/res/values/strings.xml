@@ -1,12 +1,15 @@
-<resources>
-    <string name="app_name">LISTADEPROYECTO</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">LISTOFPROJECT</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="entenda">Entenda</string>
-    <string name="bem_vindo">Bem-Vindo!</string>
-    <string name="use">Use</string>
-    <string name="aprenda">Aprenda</string>
+    <string name="bem_vindo">Welcome!</string>
     <string name="listview">ListView:</string>
-    <string name="metas_para_a_minha_semana">METAS PARA A MINHA SEMANA:</string>
+    <string name="use">Use</string>
+    <string name="entenda">Understand</string>
+    <string name="aprenda">Learn</string>
+    <string name="metas_para_a_minha_semana">GOALS FOR MY WEEK:</string>
+    <string name="nova_tarefa" tools:ignore="MissingTranslation">New Task</string>
+    <string name="add_tarefa" tools:ignore="MissingTranslation">Add task</string>
 
 </resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LISTADEPROJETO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="entenda">Entenda</string>
+    <string name="bem_vindo">Bem-Vindo!</string>
+    <string name="use">Use</string>
+    <string name="aprenda">Aprenda</string>
+    <string name="listview">Visualização de lista:</string>
+    <string name="metas_para_a_minha_semana">METAS PARA A MINHA SEMANA:</string>
+    <string name="nova_tarefa">Nova Tarefa</string>
+    <string name="add_tarefa">Adicionar Tarefa</string>
+
+</resources>
