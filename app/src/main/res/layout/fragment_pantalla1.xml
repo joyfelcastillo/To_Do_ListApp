@@ -5,6 +5,13 @@
     style="@style/panFrag1"
     tools:context=".Pantalla1Fragment">
 
+    <TextView
+        style="@style/textBemvindo"
+        android:id="@+id/textTitulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <View
         style="@style/viView"
         android:id="@+id/vista"
@@ -13,11 +20,8 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
-        style="@style/FormField"
+        style="@style/formField"
         android:id="@+id/textList1"
-        android:layout_width="wrap_content"
-        android:text="@string/listview"
-        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/guidelineHorizontal" />
 
@@ -30,14 +34,7 @@
         app:layout_constraintTop_toTopOf="@id/guidelineHorizontal" />
 
     <RadioButton
-        style="@style/MainButton"
-        android:id="@+id/radioButton3"
-        android:text="@string/aprenda"
-        app:layout_constraintStart_toStartOf="@id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
-
-    <RadioButton
-        style="@style/MainButton"
+        style="@style/radiButton1"
         android:id="@+id/radioButton1"
         android:layout_marginTop="20dp"
         android:text="@string/use"
@@ -45,23 +42,22 @@
         app:layout_constraintTop_toBottomOf="@+id/vista" />
 
     <RadioButton
-        style="@style/MainButton"
+        style="@style/radiButton1"
         android:id="@+id/radioButton2"
         android:text="@string/entenda"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
 
+    <RadioButton
+        style="@style/radiButton1"
+        android:id="@+id/radioButton3"
+        android:text="@string/aprenda"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
     <androidx.constraintlayout.widget.Guideline
         style="@style/lineGuide1"
         android:id="@+id/guideline" />
-
-    <TextView
-        style="@style/textBemvindo"
-        android:id="@+id/textTitulo"
-        android:text="@string/bem_vindo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         style="@style/lineGuide2"
@@ -74,6 +70,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

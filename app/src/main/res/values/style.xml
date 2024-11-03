@@ -19,6 +19,7 @@
     <style name="textBemvindo">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/bem_vindo</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">bold</item>
         <item name="android:background">#E8DD7B</item>
@@ -40,26 +41,22 @@
         <item name="android:src">@drawable/imagen_list</item>
     </style>
 
-    <style name="FormField">
+    <style name="formField">
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/listview</item>
+        <item name="android:textSize">30sp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="MainButton">
+    <style name="radiButton1">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:background">#E8DD7B</item>
         <item name="android:textSize">30sp</item>
         <item name="layout_constraintEnd_toEndOf">parent</item>
         <item name="layout_constraintStart_toStartOf">@id/guideline</item>
-    </style>
-
-    <style name="MainTitle">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">30dp</item>
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="lineGuide2">
@@ -80,6 +77,41 @@
         <item name="android:padding">20dp</item>
         <item name="android:background">#F1E3B6</item>
         <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MainTitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:text">@string/metas_para_a_minha_semana</item>
+    </style>
+
+    <style name="editNovaTarefa">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:hint">Nova Tarefa</item>
+    </style>
+
+    <style name="addButton2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:backgroundTint">#F2B907</item>
+        <item name="android:text">Adicionar Tarefa</item>
+    </style>
+
+    <style name="recycleItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_weight">1</item>
     </style>
 
 </resources>
