@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="panFrag1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#F1E3B6</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="viView">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#FF9800</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="textBemvindo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#E8DD7B</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="lineGuide1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="layout_constraintGuide_begin">165dp</item>
+    </style>
+
+    <style name="imageView1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:src">@drawable/imagen_list</item>
+    </style>
+
     <style name="FormField">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/black</item>
@@ -21,6 +60,26 @@
         <item name="android:layout_marginTop">30dp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="lineGuide2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="layout_constraintGuide_end">445dp</item>
+    </style>
+
+    <style name="imageCli">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="panFrag2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">#F1E3B6</item>
+        <item name="android:orientation">vertical</item>
     </style>
 
 </resources>

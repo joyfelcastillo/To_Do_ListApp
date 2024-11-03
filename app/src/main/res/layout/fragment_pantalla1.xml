@@ -2,20 +2,13 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#F1E3B6"
-    android:layout_margin="16dp"
-    android:padding="16dp"
+    style="@style/panFrag1"
     tools:context=".Pantalla1Fragment">
 
     <View
+        style="@style/viView"
         android:id="@+id/vista"
-        android:layout_width="120dp"
-        android:layout_height="2dp"
         android:layout_below="@id/textList1"
-        android:background="#FF9800"
-        android:elevation="10dp"
         app:layout_constraintTop_toBottomOf="@id/textList1"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -29,10 +22,8 @@
         app:layout_constraintTop_toTopOf="@id/guidelineHorizontal" />
 
     <ImageView
+        style="@style/imageView1"
         android:id="@+id/imageView1"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/imagen_list"
         app:layout_constraintBottom_toTopOf="@id/imageButtonEntrar"
         app:layout_constraintEnd_toEndOf="@id/guideline"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,36 +52,24 @@
         app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="165dp" />
+        style="@style/lineGuide1"
+        android:id="@+id/guideline" />
 
     <TextView
-        style="@style/FormField"
+        style="@style/textBemvindo"
         android:id="@+id/textTitulo"
-        android:background="#E8DD7B"
-        android:layout_width="match_parent"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
         android:text="@string/bem_vindo"
-        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guidelineHorizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_end="445dp" />
+        style="@style/lineGuide2"
+        android:id="@+id/guidelineHorizontal" />
 
     <ImageButton
+        style="@style/imageCli"
         android:id="@+id/imageButtonEntrar"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
         android:src="@drawable/download"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
