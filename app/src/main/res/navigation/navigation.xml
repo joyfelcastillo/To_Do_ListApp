@@ -18,5 +18,10 @@
         android:id="@+id/pantalla2Fragment"
         android:name="com.jcastillo.listadeproyecto.Pantalla2Fragment"
         android:label="fragment_pantalla2"
-        tools:layout="@layout/fragment_pantalla2" />
+        tools:layout="@layout/fragment_pantalla2"
+        >
+        <action
+            android:id="@+id/action_pantalla2Fragment_to_pantalla1Fragment"
+            app:destination="@id/pantalla1Fragment" />
+    </fragment>
 </navigation>
