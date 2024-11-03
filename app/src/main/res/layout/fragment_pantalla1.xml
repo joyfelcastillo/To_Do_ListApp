@@ -63,8 +63,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_radio_button_todos"
         android:background="@color/laranja_medio"
-        android:text="@string/use"
+        android:textColor="@color/black"
         android:textSize="@dimen/texto_radio_todos"
+        android:text="@string/use"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guidelineVertical"
         app:layout_constraintTop_toBottomOf="@+id/vista" />
@@ -74,8 +75,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/laranja_medio"
-        android:text="@string/entenda"
+        android:textColor="@color/black"
         android:textSize="@dimen/texto_radio_todos"
+        android:text="@string/entenda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/guidelineVertical"
         app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
@@ -85,8 +87,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/laranja_medio"
-        android:text="@string/aprenda"
+        android:textColor="@color/black"
         android:textSize="@dimen/texto_radio_todos"
+        android:text="@string/aprenda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/guidelineVertical"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />

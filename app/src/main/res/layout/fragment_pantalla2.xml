@@ -25,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top2_editext"
+        android:textColorHint="@color/laranja"
         android:hint="@string/nova_tarefa" />
 
     <Button
@@ -33,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="@dimen/margin_Top2_button"
-        android:backgroundTint="@color/laranja"
+        android:backgroundTint="@color/laranja_medio"
         android:drawableEnd="@drawable/add_grupo6"
         android:text="@string/adicionar_tarefa"
         android:textColor="@color/black"

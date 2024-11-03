@@ -5,7 +5,7 @@
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
         <item name="colorPrimary">#F4E135</item>
         <item name="colorPrimaryDark">#CD3C6E</item>
-        <item name="android:background">#7531EF</item>
+        <item name="android:background">#8BC34A</item>
 
 
     </style>
