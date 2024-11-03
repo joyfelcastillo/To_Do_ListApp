@@ -4,9 +4,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1E3B6"
+    android:background="@color/laraja_melon200"
     android:orientation="vertical"
-    android:padding="20dp"
+    android:padding="@dimen/padding_principal2"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,9 +14,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/margin_top2_text_view"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="@dimen/texto_textview_segunda"
         android:textStyle="italic"
         android:text="@string/metas_para_a_minha_semana"/>
 
@@ -24,7 +24,7 @@
         android:id="@+id/entradaDeTarefa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/margin_top2_editext"
         android:hint="@string/nova_tarefa" />
 
     <Button
@@ -32,18 +32,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="#F2B907"
+        android:layout_marginTop="@dimen/margin_Top2_button"
+        android:backgroundTint="@color/laranja"
         android:drawableEnd="@drawable/add_grupo6"
         android:text="@string/adicionar_tarefa"
         android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="@dimen/text_button" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="30dp"
+        android:layout_height="@dimen/height_recycler_view"
+        android:layout_marginTop="@dimen/margin_Top_recycler_view"
         android:layout_weight="1" />
 
 

@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
-    android:background="#F1E3B6"
-    android:padding="16dp"
+    android:layout_margin="@dimen/margin__pricipal"
+    android:background="@color/laraja_melon200"
+    android:padding="@dimen/pagging_principal"
     tools:context=".Pantalla1Fragment">
 
 
@@ -14,13 +14,13 @@
         android:id="@+id/tituloPrimeraTela"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:background="#E8DD7B"
+        android:layout_marginTop="@dimen/texto1"
+        android:background="@color/laranja_medio"
         android:gravity="center"
-        android:textColor="@color/black"
-        android:textSize="50sp"
-        android:textStyle="bold"
         android:text="@string/bem_vindo"
+        android:textColor="@color/black"
+        android:textSize="@dimen/texto1"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,27 +29,27 @@
         android:id="@+id/textList1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold"
         android:text="@string/list_view"
+        android:textColor="@color/black"
+        android:textSize="@dimen/texto2"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/guidelineHorizontal" />
 
     <View
         android:id="@+id/vista"
-        android:layout_width="120dp"
-        android:layout_height="2dp"
-        android:background="#F2B907"
-        android:elevation="10dp"
+        android:layout_width="@dimen/width_view"
+        android:layout_height="@dimen/height_view"
         android:layout_below="@id/textList1"
+        android:background="@color/laranja"
+        android:elevation="@dimen/elevation_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textList1" />
 
     <ImageView
         android:id="@+id/imagem"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/width_image_view"
+        android:layout_height="@dimen/height_image_view"
         android:src="@drawable/imagen_list"
         app:layout_constraintBottom_toTopOf="@id/buttonImagem"
         app:layout_constraintEnd_toEndOf="@id/guidelineVertical"
@@ -60,10 +60,10 @@
         android:id="@+id/radioButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="#E8DD7B"
-        android:textSize="30sp"
+        android:layout_marginTop="@dimen/margin_radio_button_todos"
+        android:background="@color/laranja_medio"
         android:text="@string/use"
+        android:textSize="@dimen/texto_radio_todos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guidelineVertical"
         app:layout_constraintTop_toBottomOf="@+id/vista" />
@@ -72,9 +72,9 @@
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#E8DD7B"
-        android:textSize="30sp"
+        android:background="@color/laranja_medio"
         android:text="@string/entenda"
+        android:textSize="@dimen/texto_radio_todos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/guidelineVertical"
         app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
@@ -83,16 +83,16 @@
         android:id="@+id/radioButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#E8DD7B"
-        android:textSize="30sp"
+        android:background="@color/laranja_medio"
         android:text="@string/aprenda"
+        android:textSize="@dimen/texto_radio_todos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/guidelineVertical"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineVertical"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/width_guideline_vertical"
         android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="165dp" />
@@ -106,8 +106,8 @@
 
     <ImageButton
         android:id="@+id/buttonImagem"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
+        android:layout_width="@dimen/width_image_button"
+        android:layout_height="@dimen/height_image_button"
         android:src="@drawable/download"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
