@@ -5,9 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/margin__pricipal"
-    android:background="@color/laraja_melon200"
+    android:background="@color/laranja_melon200"
     android:padding="@dimen/pagging_principal"
     tools:context=".Pantalla1Fragment">
+
 
 
     <TextView
