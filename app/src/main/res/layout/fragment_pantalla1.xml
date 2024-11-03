@@ -19,15 +19,12 @@
         app:layout_constraintTop_toBottomOf="@id/textList1"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
     <TextView
+        style="@style/FormField"
         android:id="@+id/textList1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ListView:"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="30dp"
+        android:text="@string/listview"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/guidelineHorizontal" />
 
@@ -41,43 +38,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/guidelineHorizontal" />
 
-
     <RadioButton
+        style="@style/MainButton"
         android:id="@+id/radioButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#E8DD7B"
-        android:text="Aprenda"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/aprenda"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
-
     <RadioButton
+        style="@style/MainButton"
         android:id="@+id/radioButton1"
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:background="#E8DD7B"
-        android:text="Use"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/guideline"
+        android:text="@string/use"
+        app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/vista" />
 
-
     <RadioButton
+        style="@style/MainButton"
         android:id="@+id/radioButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#E8DD7B"
-        android:textSize="30dp"
-        android:text="Entenda"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/entenda"
         app:layout_constraintStart_toStartOf="@id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
-
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -87,20 +68,17 @@
         app:layout_constraintGuide_begin="165dp" />
 
     <TextView
+        style="@style/FormField"
         android:id="@+id/textTitulo"
         android:background="#E8DD7B"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center"
-        android:textColor="@color/black"
-        android:text="Bem-Vindo!"
-        android:textStyle="bold"
-        android:textSize="50dp"
+        android:text="@string/bem_vindo"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineHorizontal"
