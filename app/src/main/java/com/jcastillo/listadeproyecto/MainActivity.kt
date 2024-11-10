@@ -1,8 +1,11 @@
 package com.jcastillo.listadeproyecto
 
+import android.content.res.Configuration
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
@@ -16,5 +19,15 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+val themeToggleButton: Button = findViewById(R.id.themeToggleButton)
+        themeToggleButton.setOnClickListener{
+            val nightMode = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK
+            if (nightMode == Configuration.UI_MODE_NIGHT_YES) {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+            }else{
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+            }
+        }
+
+        }
     }
-}

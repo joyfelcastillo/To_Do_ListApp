@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import androidx.navigation.Navigation
 
 // TODO: Rename parameter arguments, choose names that match
@@ -35,8 +36,15 @@ class Pantalla2Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
+        val view = inflater.inflate(R.layout.fragment_pantalla2, container,false)
+        val pantalla= view.findViewById<Button>(R.id.addButton)
+        pantalla.setOnClickListener{
+            Navigation.findNavController(view).navigate(R.id.action_pantalla2Fragment_to_pantalla1Fragment)
 
-        return inflater.inflate(R.layout.fragment_pantalla1, container, false)
+        }
+
+
+        return view
     }
 
     companion object {

@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="laranja">#FF9800</color>
+    <color name="laranja_medio">#FFC107</color>
+    <color name="laranja_melon200">#DBC789</color>
+
 </resources>
