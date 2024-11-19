@@ -1,13 +1,10 @@
 package com.jcastillo.listadeproyecto
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
-import androidx.navigation.Navigation
-import com.jcastillo.listadeproyecto.databinding.ActivityMainBinding
+import androidx.fragment.app.Fragment
 
 class Pantalla1Fragment : Fragment() {
     //lateinit var banding = Activ
