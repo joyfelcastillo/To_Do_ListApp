@@ -9,35 +9,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        /*
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
 
-*/
+
+
         supportFragmentManager.beginTransaction().replace(R.id.principalContainer, Pantalla1Fragment()).commit()
 
         }
 
 
-
-        /*
-        supportFragmentManager.beginTransaction().replace(R.id.principalContainer, Pantalla1Fragment()).commit()
-val themeToggleButton: Button = findViewById(R.id.themeToggleButton)
-        themeToggleButton.setOnClickListener{
-            val nightMode = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK
-            if (nightMode == Configuration.UI_MODE_NIGHT_YES) {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-            }else{
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-            }
-        }
-
-
-
-        }
-         */
 
 
     }
