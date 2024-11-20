@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.jcastillo.listadeproyecto"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.jcastillo.listadeproyecto"
@@ -42,8 +42,8 @@ dependencies {
 
 
     implementation("androidx.recyclerview:recyclerview:1.2.1")
-    implementation(libs.androidx.navigation.fragment.ktx)
-    implementation(libs.androidx.navigation.ui.ktx)
+    implementation("androidx.room:room-runtime:2.6.1")
+    annotationProcessor("androidx.room:room-compiler:2.6.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
