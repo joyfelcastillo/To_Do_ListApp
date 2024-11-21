@@ -2,58 +2,5 @@
 <resources>
 
     <!-- TODO: string do fragmento 1-->
-    <!-- Estructura do  ConstraintLayout-->
-
-    <dimen name="pagging_principal">16dp</dimen>
-    <dimen name="margin__pricipal">16dp</dimen>
-
-    <!-- estructura de TextView1-->
-    <dimen name="margin_top1">30dp</dimen>
-    <dimen name="texto1">50sp</dimen>
-
-    <!-- estructura de TextView2-->
-    <dimen name="texto2">30sp</dimen>
-
-    <!-- estructura do View-->
-    <dimen name="width_view">120dp</dimen>
-    <dimen name="height_view">2dp</dimen>
-    <dimen name="elevation_view">10dp</dimen>
-
-    <!-- estructura do ImageView-->
-    <dimen name="width_image_view">200dp</dimen>
-    <dimen name="height_image_view">200dp</dimen>
-
-    <!-- estructura do RadioButtonTodos-->
-    <dimen name="margin_radio_button_todos">20dp</dimen>
-    <dimen name="texto_radio_todos">30sp</dimen>
-
-    <!-- estructura do GuidelineVetical-->
-    <dimen name="width_guideline_vertical">0dp</dimen>
-
-    <!-- estructura do GuidelineHorizontal-->
-    <dimen name="width_guideline_horizontal">445dp</dimen>
-
-    <!-- estructura do ImageButton-->
-    <dimen name="height_image_button">50dp</dimen>
-    <dimen name="width_image_button">0dp</dimen>
-
-    <!-- TODO: string do fragmento 2 -->
-    <!-- estructura do LineaLayout-->
-    <dimen name="padding_principal2">20dp</dimen>
-
-    <!-- estructura do TextView-->
-    <dimen name="margin_top2_text_view">30dp</dimen>
-    <dimen name="texto_textview_segunda">20sp</dimen>
-
-    <!-- estructura do EditText-->
-    <dimen name="margin_top2_editext">30dp</dimen>
-
-    <!-- estructura do Button-->
-    <dimen name="margin_Top2_button">30dp</dimen>
-    <dimen name="text_button">20sp</dimen>
-
-    <!-- estructura do RecyclerView-->
-    <dimen name="height_recycler_view">0dp</dimen>
-    <dimen name="margin_Top_recycler_view">30dp</dimen>
 
 </resources>

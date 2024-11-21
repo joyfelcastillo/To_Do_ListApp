@@ -4,53 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:background="#FBC725"
     android:padding="10dp"
-    android:layout_height="match_parent"
     tools:context=".loadingNova">
 
     <TextView
         android:id="@+id/idText"
-        android:textColor="@color/white"
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bem-vindo"
+        android:layout_marginTop="16dp"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:fontFamily="casual"
-        android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/idImagem"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/idLayUm" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:id="@+id/idLayUm"
-        android:orientation="horizontal"
+    <ImageView
+        android:id="@+id/idImagem"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_marginTop="8dp"
-        android:layout_below="@id/idText"
-        android:background="@drawable/estanvo"
+        android:background="@drawable/img_principal"
+        app:layout_constraintBottom_toTopOf="@id/idGestion"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/gestion"
-        app:layout_constraintTop_toBottomOf="@id/idText">
-    </LinearLayout>
+        app:layout_constraintTop_toBottomOf="@id/idText" />
 
     <TextView
-        android:id="@+id/gestion"
+        android:id="@+id/idGestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gerenciamento_de_tarefas"
-        android:textSize="25sp"
+        android:text="@string/task_manager"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:layout_below="@id/idLayUm"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/idLayUm" />
+        app:layout_constraintTop_toBottomOf="@id/idImagem" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

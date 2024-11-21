@@ -1,17 +1,16 @@
 <resources>
-    <string name="app_name">Gerenciador De Tarefas</string>
-    <!-- TODO: string do fragmento 1 -->
-    <string name="bem_vindo">Bem-vindo!</string>
-    <string name="list_view">ListView:</string>
-    <string name="use">Use</string>
-    <string name="entenda">Entenda</string>
-    <string name="aprenda">Aprenda</string>
 
-    <!-- TODO: string do fragmento 2 -->
-    <string name="metas_para_a_minha_semana">METAS PARA A MINHA SEMANA :</string>
-    <string name="nova_tarefa">Nova Tarefa</string>
-    <string name="adicionar_tarefa">Adicionar Tarefa</string>
-    <string name="gerenciamento_de_tarefas">Gerenciamento de tarefas</string>
+        <!-- Otras cadenas -->
+    <string name="task_manager">Gerenciador de tarefas</string>
+    <string name="welcome">Bem-vindo !</string>
+
+    <string name="New_Task">Digite  Tarefa</string>
+    <string name="add">Add</string>
+    <string name="app_name">app_name</string>
+    <string name="Edit_Task">Editar tarefa</string>
+    <string name="editar">Editar</string>
+    <string name="remove">Eliminar</string>
+
 
 
 </resources>
