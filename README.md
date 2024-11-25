@@ -1,3 +1,2 @@
-teste 
-teste2
-teste3
+Este projeto é um aplicativo de lista de tarefas criado em Kotlin. 
+Ele foi concebido como uma ferramenta de aprendizagem para aplicar os conhecimentos adquiridos no curso Toti, como sintaxe Kotlin e noções básicas de desenvolvimento de aplicativos Android.
