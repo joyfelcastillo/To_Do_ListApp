@@ -34,8 +34,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FBC725"
-       android:textStyle="bold"
-        android:text="@string/editar" />
+        android:textStyle="bold"
+        android:drawableEnd="@drawable/baseline_edit_24"
+        />
 
     <Button
         android:id="@+id/btnDelete"
@@ -43,5 +44,5 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:backgroundTint="#FBC725"
-        android:text="@string/remove" />
+        android:drawableEnd="@drawable/baseline_delete_24" />
 </LinearLayout>
