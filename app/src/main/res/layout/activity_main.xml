@@ -17,6 +17,7 @@
         android:hint="@string/New_Task"
         android:textColorHint="#FFFFFFFF"
         android:textStyle="bold"
+        android:gravity="center"
         app:layout_constraintEnd_toStartOf="@+id/btnAddTask"
         app:layout_constraintHorizontal_bias="0.687"
         app:layout_constraintStart_toStartOf="parent"
