@@ -10,7 +10,7 @@
         android:id="@+id/cbCompleted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#6E6B6B"
+        android:background="#FBC725"
         android:layout_marginEnd="8dp" />
 
     <TextView
@@ -33,7 +33,7 @@
         android:id="@+id/btnEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#6E6B6B"
+        android:backgroundTint="#FBC725"
        android:textStyle="bold"
         android:text="@string/editar" />
 
@@ -42,6 +42,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:backgroundTint="#6E6B6B"
+        android:backgroundTint="#FBC725"
         android:text="@string/remove" />
 </LinearLayout>
