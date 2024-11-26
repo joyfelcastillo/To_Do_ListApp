@@ -34,14 +34,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FBC725"
-       android:textStyle="bold"
+        android:textStyle="bold"
+        android:drawableEnd="@drawable/baseline_edit_24"
         android:text="@string/editar" />
-
+//modificar el tamaño del boton editar y eliminar para que
+    sean mas pequeño y entre bien el edittext//
     <Button
         android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:backgroundTint="#FBC725"
+        android:drawableEnd="@drawable/baseline_delete_24"
         android:text="@string/remove" />
 </LinearLayout>
