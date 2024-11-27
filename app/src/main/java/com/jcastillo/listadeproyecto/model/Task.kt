@@ -1,6 +1,5 @@
-package com.jcastillo.listadeproyecto
+package com.jcastillo.listadeproyecto.model
 
-import com.jcastillo.listadeproyecto.Task
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -8,6 +7,6 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "tasks")
 data class Task(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
-    var title: String,
-    var isCompleted: Boolean = false
+    val title: String,
+    val description: String
 )

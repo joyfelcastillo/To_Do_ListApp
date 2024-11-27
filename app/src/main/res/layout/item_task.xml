@@ -1,48 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:background="#FBC725"
+    android:background="@color/laranja"
+    android:orientation="vertical"
     android:padding="8dp">
 
-    <CheckBox
-        android:id="@+id/cbCompleted"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FBC725"
-        android:layout_marginEnd="8dp" />
+        android:background="@color/white"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/tvTaskTitle"
-        android:layout_width="0dp"
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/background_app"
-        android:layout_weight="1"
-        android:textSize="16sp" />
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/etEditTask"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:hint="@string/Edit_Task"
-        android:visibility="gone" />
-
-    <Button
-        android:id="@+id/btnEdit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FBC725"
-        android:textStyle="bold"
-        android:drawableEnd="@drawable/baseline_edit_24"
-        />
-
-    <Button
+    <!-- Botón de eliminar -->
+    <ImageButton
         android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:backgroundTint="#FBC725"
-        android:drawableEnd="@drawable/baseline_delete_24" />
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:contentDescription="Eliminar tarea"
+        android:background="@null"
+        app:tint="@color/black" />
 </LinearLayout>
