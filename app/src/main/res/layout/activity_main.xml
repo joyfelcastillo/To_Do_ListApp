@@ -1,43 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    style="@style/ActivityMain"
     android:background="@color/background_app"
-    android:padding="16dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Button
         android:id="@+id/btnAddTask"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
+        style="@style/ButtonActivityMain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textColor="@color/black"
-        android:layout_marginTop="20dp"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:text="Agregar Tarea" />
-
-
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        style="@style/CardViewActivity"
         app:cardCornerRadius="20dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@id/btnAddTask"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnAddTask">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white"
-        android:padding="16dp"
-        />
+        style="@style/RecyclerViewActivity" />
 
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
