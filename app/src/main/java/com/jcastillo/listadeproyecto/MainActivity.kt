@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
     private fun showTaskDialog(task: Task?) {
         val dialogView = layoutInflater.inflate(R.layout.dialog_task, null)
         val dialog = AlertDialog.Builder(this)
-            .setTitle(if (task == null) "Agregar Tarea" else "Editar Tarea")
+            .setTitle(if (task == null) "Agregar Tarefa" else "Editar Tarefa")
             .setView(dialogView)
             .setPositiveButton("Guardar") { _, _ ->
                 val title = dialogView.findViewById<EditText>(R.id.etTitle).text.toString()
@@ -64,14 +64,14 @@ class MainActivity : AppCompatActivity() {
 
                 if (title.isNotBlank() && description.isNotBlank()) {
                     if (task == null) {
-                        // Agregar nueva tarea
+                        // Agregar nova tarefa
                         taskViewModel.insert(Task(title = title, description = description))
                     } else {
-                        // Actualizar tarea existente
+                        // Atualizar tarefa existente
                         taskViewModel.update(task.copy(title = title, description = description))
                     }
                 } else {
-                    Toast.makeText(this, "Completa todos los campos", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
                 }
             }
             .setNegativeButton("Cancelar", null)
@@ -87,12 +87,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun deleteTask(task: Task) {
         AlertDialog.Builder(this)
-            .setTitle("Eliminar Tarea")
-            .setMessage("¿Estás seguro de que deseas eliminar esta tarea?")
-            .setPositiveButton("Sí") { _, _ ->
+            .setTitle("Eliminar Tarefa")
+            .setMessage("Tem certeza de que deseja excluir esta tarefa?")
+            .setPositiveButton("Sim") { _, _ ->
                 taskViewModel.delete(task)
             }
-            .setNegativeButton("No", null)
+            .setNegativeButton("Não", null)
             .create()
             .show()
     }

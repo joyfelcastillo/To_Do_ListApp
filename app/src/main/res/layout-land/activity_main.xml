@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActivityMain"
+    android:background="@color/background_app"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/btnAddTask"
+        style="@style/ButtonActivityMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardViewActivity"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnAddTask">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        style="@style/RecyclerViewActivity" />
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
