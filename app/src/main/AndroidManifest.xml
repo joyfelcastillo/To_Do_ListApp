@@ -13,7 +13,7 @@
         android:theme="@style/Theme.LISTADEPROYECTO"
         tools:targetApi="31">
         <activity
-            android:name=".loadingNova"
+            android:name=".LoadingNova"
             android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />

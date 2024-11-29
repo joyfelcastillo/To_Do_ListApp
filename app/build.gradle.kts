@@ -1,3 +1,5 @@
+import org.gradle.kotlin.dsl.libs
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -50,24 +52,25 @@ android {
 dependencies {
 
     // Room
-    implementation("androidx.room:room-runtime:2.6.1")
-    ksp("androidx.room:room-compiler:2.6.1")
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.support.annotations)
+    ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
 
     // RecyclerView
-    implementation("androidx.recyclerview:recyclerview:1.3.1")
+    implementation(libs.androidx.recyclerview)
 
     // Lifecycle para ViewModel y LiveData
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 
     // Coroutines para operaciones asíncronas
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation(libs.kotlinx.coroutines.android)
 
     // Material Design
-    implementation("com.google.android.material:material:1.10.0")
+    implementation(libs.material)
 
 
     implementation(libs.androidx.core.ktx)
