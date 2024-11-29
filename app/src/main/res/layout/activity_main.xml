@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ActivityMain"
-    android:background="@color/background_app"
+    android:background="@color/background_recycleview"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Button
@@ -20,6 +20,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
+        android:visibility="visible"
         style="@style/RecyclerViewActivity" />
 
     </androidx.cardview.widget.CardView>

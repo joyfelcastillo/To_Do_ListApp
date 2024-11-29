@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/ActivityLoadingNova"
     android:id="@+id/main"
-    tools:context=".loadingNova">
+    tools:context=".LoadingNova">
 
     <TextView
         android:id="@+id/idText"
