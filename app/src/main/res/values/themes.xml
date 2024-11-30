@@ -3,10 +3,9 @@
     <style name="Base.Theme.LISTADEPROYECTO" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">@color/white</item>
-        <item name="colorPrimaryDark">@color/laranja</item>
-        <item name="android:background">#A365F2</item>
-
+        <item name="colorPrimary">#FFFF5722</item>
+        <item name="colorPrimaryDark">#FFFFD54F</item>
+        <item name="android:background">#FFFBE9E7</item>
     </style>
 
     <style name="Theme.LISTADEPROYECTO" parent="Base.Theme.LISTADEPROYECTO" />

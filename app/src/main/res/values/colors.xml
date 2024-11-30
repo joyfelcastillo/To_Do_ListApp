@@ -8,5 +8,5 @@
     <color name="laranja_medio">#FFC107</color>
 
     <color name="hint_edit">#FFFFFFFF</color>
-    <color name="background_recycleview">#DBD493</color>
+    <color name="background_recycleview">#FFFFD54F</color>
 </resources>

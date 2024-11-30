@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:textStyle="normal"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/background_recycleview"
@@ -18,12 +18,12 @@
 
     <TextView
         android:id="@+id/tvDescription"
-        android:textStyle="normal"
+        android:textStyle="italic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:background="@color/background_recycleview"
-        android:textColor="@color/black"
+        android:background="#FFF3E0"
+        android:textColor="#FF212121"
         android:textSize="18sp" />
 
     <!-- Botón de eliminar -->
@@ -33,8 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:layout_marginTop="8dp"
-        android:src="@drawable/baseline_delete"
+        android:src="@drawable/ic_delete"
         android:contentDescription="@string/delete_task"
-        android:background="@null"
-        app:tint="@color/laranja" />
+        android:background="@null" />
 </LinearLayout>
