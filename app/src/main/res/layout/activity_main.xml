@@ -8,13 +8,7 @@
 
     <Button
         android:id="@+id/btnAddTask"
-        android:textStyle="bold"
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FFFBE9E7"
-        android:textColor="@color/black"
-        android:layout_marginTop="20dp"
+        style="@style/ButtonAddTask"
         android:text="Adicionar Tarefa"
         android:drawableEnd="@drawable/ic_add"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,21 +16,15 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        style="@style/CardViewActivity"
         app:cardCornerRadius="20dp"
-        android:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnAddTask">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:visibility="visible"
-        android:padding="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        style="@style/RecyclerViewActivity"
         android:background="@color/background_recycleview" />
 
     </androidx.cardview.widget.CardView>

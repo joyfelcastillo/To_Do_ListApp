@@ -30,12 +30,12 @@ class MainActivity : AppCompatActivity() {
 
         setupRecyclerView()
 
-        // Observa los datos desde el ViewModel
+        // Observa os dados do ViewModel e atualiza a lista de tarefas no adapter
         taskViewModel.allTasks.observe(this) { tasks ->
             taskAdapter.updateTasks(tasks)
         }
 
-        // Acción para agregar una nueva tarea
+        // Ação para adicionar uma nova tarefa
         btnAddTask.setOnClickListener {
             showTaskDialog(null)
         }
