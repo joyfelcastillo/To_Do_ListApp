@@ -8,32 +8,20 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:textStyle="bold"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/background_recycleview"
-        android:textAllCaps="true"
-        android:textColor="@color/black"
-        android:textSize="16sp" />
+        style="@style/TextTaskItem"
+        android:textAllCaps="true" />
 
     <TextView
         android:id="@+id/tvDescription"
-        android:textStyle="italic"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:background="#FFF3E0"
-        android:textColor="#FF212121"
-        android:textSize="18sp" />
+        style="@style/TextDescTaskItem"
+        android:textStyle="italic" />
 
-    <!-- Botón de eliminar -->
     <ImageButton
         android:id="@+id/btnDelete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginTop="8dp"
+        style="@style/ButtonDeletTask"
         android:src="@drawable/ic_delete"
         android:contentDescription="@string/delete_task"
         android:background="@null" />
 </LinearLayout>
+
+

@@ -5,23 +5,14 @@
     android:orientation="vertical"
     android:padding="0dp">
 
-
     <EditText
         android:id="@+id/etTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColorHint="@color/black"
         android:hint="@string/task_title"
-        android:inputType="text"
-        android:textColor="#FF212121" />
+        style="@style/TitleTaskDialog" />
 
     <EditText
         android:id="@+id/etDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textColorHint="@color/black"
         android:hint="@string/description"
-        android:inputType="textMultiLine"
-        android:textColor="#FF212121" />
+        style="@style/DescriptionDialog" />
+
 </LinearLayout>
