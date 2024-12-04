@@ -9,7 +9,7 @@
         android:id="@+id/btnAddTask"
         style="@style/ButtonAddTask"
         android:drawableEnd="@drawable/ic_add"
-        android:text="Adicionar Tarefa"
+        android:text="@string/add_task"
         app:layout_constraintBottom_toTopOf="@id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,10 +17,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        style="@style/CardViewActivity"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_margin="10dp"
+        style="@style/CardViewActivityLand"
         app:cardCornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,8 +27,6 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             style="@style/RecyclerViewActivity"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:background="@color/background_recycleview" />
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

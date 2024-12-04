@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="task_manager">Gerenciador de tareas</string>
+    <string name="welcome">Bienvenido !</string>
+
+    <string name="ok">OK</string>
+    <string name="no">No</string>
+    <string name="add">Adicionar</string>
+    <string name="yes">Si</string>
+
+    <string name="edit">Editar</string>
+    <string name="save">Guardar</string>
+    <string name="title">Título</string>
+    <string name="editar">Editar</string>
+
+    <string name="guardar">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="remove">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="app_name">To Do List</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="description">Descripción</string>
+    <string name="New_Task">Nueva tarea></string>
+    <string name="edit_task">Editar tarea</string>
+    <string name="Edit_Task">Editar tarea</string>
+
+    <string name="add_task">Adicionar tarea</string>
+    <string name="task_list">Lista de tareas</string>
+    <string name="delete_task">Eliminar tarea</string>
+    <string name="task_title">Título de la tarea</string>
+
+    <string name="task_added">Tarea adicionada</string>
+    <string name="task_deleted">Tarea eliminada</string>
+    <string name="task_updated">Tarea actualizada</string>
+
+    <string name="task_not_found">Tarea no encontrada</string>
+    <string name="task_empty">Tarea no encontrada</string>
+    <string name="task_description">Descripción de la tarea</string>
+
+    <string name="task_manager_title">Gerenciador de tareas</string>
+    <string name="task_not_found_error">Tarea no encontrada</string>
+    <string name="task_not_empty">La descripción no puede estar vacía</string>
+
+    <string name="task_not_added">No se pudo agregar la tarea</string>
+    <string name="task_not_deleted">No se pudo eliminar la tarea</string>
+    <string name="task_not_updated">No se pudo actualizar la tarea</string>
+    <string name="task_added_successfully">Tarea añadida con éxito</string>
+
+    <string name="task_deleted_successfully">Tarea eliminada con éxito</string>
+    <string name="task_updated_successfully">Tarea actualizada con éxito</string>
+    <string name="task_title_empty">El título de la tarea no puede estar vacío</string>
+    <string name="task_not_added_error">No fue posible agregar la tarea</string>
+
+    <string name="task_title_not_empty">El título de la tarea no puede estar vacío</string>
+    <string name="are_you_sure">Está a punto de eliminar esta tarea. ¿Está seguro?</string>
+    <string name="task_description_empty">Descripción de la tarea vacía</string>
+    <string name="task_description_not_empty">La descripción de la tarea no puede estar vacía</string>
+
+</resources>

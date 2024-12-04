@@ -1,6 +1,5 @@
 <resources>
 
-    <!-- Otras cadenas -->
     <string name="task_manager">Gerenciador de tarefas</string>
     <string name="welcome">Bem-vindo !</string>
 

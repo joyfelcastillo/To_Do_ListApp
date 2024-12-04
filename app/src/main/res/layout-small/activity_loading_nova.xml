@@ -12,15 +12,8 @@
 
     <TextView
         android:id="@+id/idText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#FBC725"
+        style="@style/TextViewWelcomeSmall"
         android:text="@string/welcome"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="15sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/idImagem"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -29,8 +22,7 @@
 
     <ImageView
         android:id="@+id/idImagem"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        style="@style/ImageViewLoadingSmall"
         android:background="@drawable/img_principal"
         app:layout_constraintBottom_toTopOf="@id/idGestion"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,14 +31,8 @@
 
     <TextView
         android:id="@+id/idGestion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FBC725"
+        style="@style/TextViewManagerSmall"
         android:text="@string/task_manager"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="10sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
