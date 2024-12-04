@@ -4,32 +4,32 @@
     <string name="task_manager">Gerenciador de tareas</string>
     <string name="welcome">Bienvenido !</string>
 
-    <string name="ok">OK</string>
-    <string name="no">No</string>
-    <string name="add">Adicionar</string>
-    <string name="yes">Si</string>
-
-    <string name="edit">Editar</string>
+    <string name="add_task">Agregar Tarea</string>
+    <string name="edit_task">Editar Tarea</string>
     <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="fill_all_fields">Rellene todos los campos</string>
+    <string name="delete_task">Eliminar Tarea</string>
+    <string name="confirm_delete_task">Tem certeza de que deseja excluir esta tarefa?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="ok">OK</string>
+    <string name="add">Adicionar</string>
+    <string name="edit">Editar</string>
     <string name="title">Título</string>
     <string name="editar">Editar</string>
 
     <string name="guardar">Guardar</string>
     <string name="delete">Eliminar</string>
     <string name="remove">Eliminar</string>
-    <string name="cancel">Cancelar</string>
-
     <string name="app_name">To Do List</string>
     <string name="cancelar">Cancelar</string>
 
     <string name="description">Descripción</string>
     <string name="New_Task">Nueva tarea></string>
-    <string name="edit_task">Editar tarea</string>
     <string name="Edit_Task">Editar tarea</string>
-
-    <string name="add_task">Adicionar tarea</string>
     <string name="task_list">Lista de tareas</string>
-    <string name="delete_task">Eliminar tarea</string>
     <string name="task_title">Título de la tarea</string>
 
     <string name="task_added">Tarea adicionada</string>

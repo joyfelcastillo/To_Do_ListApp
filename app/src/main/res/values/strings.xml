@@ -1,36 +1,33 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <string name="task_manager">Gerenciador de tarefas</string>
     <string name="welcome">Bem-vindo !</string>
 
     <string name="ok">OK</string>
+    <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="add">Add</string>
-    <string name="yes">Sim</string>
 
     <string name="edit">Editar</string>
     <string name="save">Guardar</string>
     <string name="title">Título</string>
     <string name="editar">Editar</string>
-
+    <string name="cancel">Cancelar</string>
     <string name="guardar">Guardar</string>
     <string name="delete">Eliminar</string>
     <string name="remove">Eliminar</string>
-    <string name="cancel">Cancelar</string>
 
-    <string name="app_name">To Do List</string>
     <string name="cancelar">Cancelar</string>
-
+    <string name="app_name">To Do List</string>
     <string name="description">Descrição</string>
     <string name="New_Task">Digite Tarefa</string>
-    <string name="edit_task">Editar tarefa</string>
     <string name="Edit_Task">Editar tarefa</string>
 
-    <string name="add_task">Adicionar tarefa</string>
+    <string name="add_task">Agregar Tarefa</string>
+    <string name="edit_task">Editar Tarefa</string>
     <string name="task_list">Lista de tarefas</string>
-    <string name="delete_task">Eliminar tarefa</string>
     <string name="task_title">Título da tarefa</string>
-
+    <string name="delete_task">Eliminar Tarefa</string>
     <string name="task_added">Tarefa adicionada</string>
     <string name="task_deleted">Tarefa eliminada</string>
     <string name="task_updated">Tarefa atualizada</string>
@@ -57,6 +54,7 @@
     <string name="are_you_sure">Está a punto de eliminar esta tarefa. Tem certeza?</string>
     <string name="task_description_empty">A descrição da tarefa não pode estar vazia</string>
     <string name="task_description_not_empty">A descrição da tarefa não pode estar vazia</string>
-
+    <string name="fill_all_fields" tools:ignore="MissingTranslation">Preencha todos os campos</string>
+    <string name="confirm_delete_task" tools:ignore="MissingTranslation">Tem certeza de que deseja excluir esta tarefa?</string>
 </resources>
 

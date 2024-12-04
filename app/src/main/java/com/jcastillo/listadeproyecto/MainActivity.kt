@@ -56,25 +56,25 @@ class MainActivity : AppCompatActivity() {
     private fun showTaskDialog(task: Task?) {
         val dialogView = layoutInflater.inflate(R.layout.dialog_task, null)
         val dialog = AlertDialog.Builder(this)
-            .setTitle(if (task == null) "Agregar Tarefa" else "Editar Tarefa")
+            .setTitle(if (task == null) getString(R.string.add_task) else getString(R.string.edit_task))
             .setView(dialogView)
-            .setPositiveButton("Guardar") { _, _ ->
+            .setPositiveButton(getString(R.string.save)) { _, _ ->
                 val title = dialogView.findViewById<EditText>(R.id.etTitle).text.toString()
                 val description = dialogView.findViewById<EditText>(R.id.etDescription).text.toString()
 
                 if (title.isNotBlank() && description.isNotBlank()) {
                     if (task == null) {
-                        // Agregar nova tarefa
+                        // Agregar nueva tarea
                         taskViewModel.insert(Task(title = title, description = description))
                     } else {
-                        // Atualizar tarefa existente
+                        // Actualizar tarea existente
                         taskViewModel.update(task.copy(title = title, description = description))
                     }
                 } else {
-                    Toast.makeText(this, "Preencha todos os campos", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.fill_all_fields), Toast.LENGTH_SHORT).show()
                 }
             }
-            .setNegativeButton("Cancelar", null)
+            .setNegativeButton(getString(R.string.cancel), null)
             .create()
 
         if (task != null) {
@@ -87,13 +87,15 @@ class MainActivity : AppCompatActivity() {
 
     private fun deleteTask(task: Task) {
         AlertDialog.Builder(this)
-            .setTitle("Eliminar Tarefa")
-            .setMessage("Tem certeza de que deseja excluir esta tarefa?")
-            .setPositiveButton("Sim") { _, _ ->
+            .setTitle(getString(R.string.delete_task))
+            .setMessage(getString(R.string.confirm_delete_task))
+            .setPositiveButton(getString(R.string.yes)) { _, _ ->
                 taskViewModel.delete(task)
             }
-            .setNegativeButton("Não", null)
+            .setNegativeButton(getString(R.string.no), null)
             .create()
             .show()
     }
+
+
 }
