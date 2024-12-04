@@ -4,9 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_app">#FBC725</color>
 
-    <color name="laranja">#FF9800</color>
-    <color name="laranja_medio">#FFC107</color>
 
+    <color name="backgroud">#FFE0B2</color>
     <color name="hint_edit">#FFFFFFFF</color>
     <color name="background_recycleview">#FFFFD54F</color>
 </resources>

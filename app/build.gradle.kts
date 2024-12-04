@@ -51,6 +51,7 @@ dependencies {
     // Room
     implementation(libs.androidx.room.runtime)
     implementation(libs.support.annotations)
+    implementation(libs.play.services.maps)
     ksp(libs.androidx.room.compiler)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.room.runtime)
